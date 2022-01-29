@@ -1,1 +1,81 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Kitty website</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    <header>
+        <h1>Welcome to Kitten selector</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Choose your champion</h2>
+            <p>This is where you select the kitten</p>
+            <div style="display: inline-block;">
+            <h1>Surprised kitten</h1>
+            <img src= "img/surprised_kitten.jpg" alt ="Surprised kitten" title = "Surprised kitten" style= "width: 200px">
+            <ul>
+                <li>Surprised little fella</li>
+                <li>Easily startled</li>
+                <li>GGC proof (Guaranteed good cuddles)&trade;</li>
+            </ul>
+            </div>
+            <div style = "display: inline-block;">
+                <h1>Kitten in a mitten</h1>
+                <img src= "img/kitten_in_a_mitten.jpg" alt ="Kitten in a mitten" title = "Kitten in a mitten" style= "width: 200px">
+                <ul>
+                    <li>Lil snuggly guy</li>
+                    <li>Fashion queen</li>
+                    <li>Will wear hat if needed</li>
+                </ul>
+            </div>
+            <div style = "display:inline-block;">
+                <h1>Chonky Kitten</h1>
+                <img src= "img/chonky_litten.jpg" alt ="Chonky kitten" title = "Chonky kitten" style= "width: 200px">
+                <ul>
+                    <li>Lil Chonk</li>
+                    <li>No smol</li>
+                    <li>Good listens</li>
+                </ul>
+            </div>
+        </section>
+        <section id= "contact">
+            <h2>Leveransinfo</h2>
+            <p>Info för att kunna leverera</p>
+            <form>
+            <label for = "name">Full name</label><br>
+            <input type = "text" id ="name" name="fn" placeholder="Full name" required = "required"><br><br>
+            <label for = "email">Email address</label><br>
+            <input type = "email" id ="email" name="em" placeholder="Email address" required = "required"><br><br>
+            <label for = "street">Street</label><br>
+            <input type = "text" id ="street" name="st" placeholder="Street address" required = "required"><br><br>
+            <label for = "house">House number</label><br>
+            <input type = "number" id ="house" name="nm" placeholder="House number" required = "required"><br><br>
+                <label for="payment">Payment options</label><br>
+                <select id="payment" name="pay">
+                    <option selected = "selected">Bitcoins</option>
+                    <option>Hugs</option>
+                    <option>Swish</option>
+                    <option>Mustardcard</option>
+                </select>
+            <p>cats?</p>
+            <p>
+                <input type = "radio" id ="yes" name="ct">
+                <label for = "yes">yes</label><br>
+                <input type = "radio" id ="also_yes" name="ct">
+                <label for = "also_yes">also yes</label><br>
+                <input type = "radio" id ="kitty" name="ct">
+                <label for = "kitty">kitttyyy</label><br>
+             </p>
+            </form>
+            <button type="submit">
+                <img src="img/cat_in_rocket.svg">
+                Send Info
+              </button>
+        </section>
+    </main>
+    <hr>
+    <footer>&copy;Kittens for kittens for kittens making mittens Inc</footer>    
+   </body>
+</html>
